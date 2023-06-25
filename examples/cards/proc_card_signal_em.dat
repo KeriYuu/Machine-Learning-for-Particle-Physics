@@ -1,0 +1,2 @@
+import model SMEFTsim_general_MwScheme_UFO
+generate e+ e- > mu+ mu-

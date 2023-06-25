@@ -1,0 +1,3 @@
+import model SMEFTsim_general_MwScheme_UFO
+generate e+ e- > t t~ NP<=1, (t > b w+ , w+ > j j )  NP<=1, (t~ > b~ w-, w- > l- vl~ )  NP<=1
+add process e+ e- > t t~ NP<=1, (t > b w+, w+ > l+ vl)  NP<=1 , (t~ > b~ w-, w- > j j)  NP<=1
