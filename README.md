@@ -49,10 +49,11 @@ Please ensure that you have installed all dependencies before running the script
 This project is accompanied by three example Jupyter notebooks in the `examples` directory, which demonstrate the complete workflow for a specific case study: the process of electron-positron collision leading to the generation and decay of a top quark pair, focusing on operators involving $Z$:
 
 $$
-O_{\phi Q}^{(3)}=(\phi^{\dagger} \tau^{I} i \overleftrightarrow{D}_{\mu} \phi) \bar{Q}_{L} \gamma^{\mu} \tau^{I} Q_{L}
+O_{\phi Q}^{(3)}=(\phi^{\dagger} \tau^{I} i \overset{\leftrightarrow}{D}_{\mu} \phi) \bar{Q}_{L} \gamma^{\mu} \tau^{I} Q_{L}
 $$
+
 $$
-O_{\phi u}=(\phi^{\dagger} i \overleftrightarrow{D}_{\mu} \phi) \bar{Q}_{L} \gamma^{\mu} u_{R}
+O_{\phi u}=(\phi^{\dagger} i \overset{\leftrightarrow}{D}_{\mu} \phi) \bar{Q}_{L} \gamma^{\mu} u_{R}
 $$
 
 And their corresponding Lagrangian:
@@ -60,6 +61,7 @@ And their corresponding Lagrangian:
 $$
 \mathcal{L}_{BSM}=\mathcal{L}_{{SM}}+ \frac{C_{\phi Q}^{(3)}}{\Lambda^2} O_{\phi Q}^{(3)}+ \frac{C_{\phi u}}{\Lambda^2} O_{\phi u}
 $$
+
 
 These notebooks demonstrate each step of the process, from data acquisition, through machine learning, to testing. You can follow along these examples to understand how the pipeline works and use it for your own case studies. Here is a guide on how to use them:
 
